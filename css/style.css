@@ -914,3 +914,7 @@ border: 2px solid #fff;
 	animation-delay: 1.2s; 
 	-webkit-animation-delay: 1.2s; 
 }
+.delay-20{
+	animation-delay: 2s; 
+	-webkit-animation-delay: 2s; 
+}
