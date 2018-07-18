@@ -15,7 +15,7 @@
 /* Clear Floated Elements
 ---------------------------------*/
 .clear {
-  clear: both;
+  clear: both;                    
   display: block;
   overflow: hidden;
   visibility: hidden;
@@ -76,7 +76,7 @@ h3{
 	color:#222222;
 	font-size:16px;
 	margin:0 0 5px 0;
-	text-transform:uppercase;
+	/* text-transform:uppercase; */
 	font-weight:400;
 }
 h6{
@@ -101,16 +101,24 @@ p{
 	padding:280px 0;
 }
 .logo{
-	width:130px;
+	width:250px;
 	margin:0 auto 35px;
 }
 .header h1{
 	font-family: 'Montserrat',sans-serif;
 	font-size:50px;
 	font-weight:400;
-	letter-spacing: -1px;
-	margin:0 0 22px 0 ;
-	color:#fff;
+	letter-spacing: 7px;
+	margin:0 0 12px 0 ;
+	color:white;
+}
+
+.running-hand-white{
+	/* font: 400 30px/0.8 'Cookie', Helvetica, sans-serif; */
+	font-family: 'Cookie', Helvetica, sans-serif;
+	font-size:30px;
+	color: #fff;
+	/* text-shadow: 4px 4px 3px rgba(0,0,0,0.1); */
 }
 
 .we-create{
@@ -142,10 +150,44 @@ p{
 color: #fff;
 }
 
+a.animated-button.thar-three {
+	color: #fff;
+	cursor: pointer;
+	/* display: block; */
+	position: relative;
+	border: 2px solid white;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
+a.animated-button.thar-three:hover {
+	color:blue !important;
+	/* font-weight: 600; */
+	background-color: transparent;
+	text-shadow: nthree;
+}
+a.animated-button.thar-three:hover:before {
+	left: 0%;
+	right: auto;
+	width: 100%;
+}
+a.animated-button.thar-three:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	color:#000 !important;
+	background:white;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
 
 .link{
 	padding:15px 35px;
-	background:#7cc576;
+	background:blue;
 	color:#fff !important;
 	font-size:16px;
 	font-weight:400;
@@ -161,12 +203,13 @@ color: #fff;
 }
 .link:hover {
 	text-decoration:none;
-	color:#7cc576 !important;
-	background:#fff;
+	/* color:#7cc576 !important;
+	background:#fff; */
+	transform: translate(-50%,-50%) scale(1.25);
 }
 
 .link:active, .link:focus {
-	background: #7cc576;
+	background: blue;
 	text-decoration:none;
 	color:#fff !important;
 }
@@ -209,13 +252,16 @@ color: #fff;
 }
 
 .small-logo{ 
-	padding:0 32px;
+	padding:0 4px;
 }
 
 .main-section{
 	padding:90px 0 110px;
 }
 
+svg{
+	width:20px;
+}
 
 /* Services
 ---------------------------------*/
