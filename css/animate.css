@@ -1067,7 +1067,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(0);
   }
 }
-/* fadeInLeft */
+/* fadeInLeft
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -1101,7 +1101,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-}
+} */
 
 @keyframes fadeInDownBig {
   0% {

@@ -98,18 +98,18 @@ p{
 .header{
 	text-align:center;
 	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:80px 0;
+	padding:280px 0;
 }
 .logo{
-	width:250px;
+	width:250px;/**/
 	margin:0 auto 35px;             
 }
 .header h1{
 	font-family: 'Montserrat',sans-serif;
 	font-size:50px;
 	font-weight:400;
-	letter-spacing: 7px;
-	margin:0 0 12px 0 ;
+	letter-spacing: -1px;/**/
+	margin:0 0 22px 0 ;/**/
 	color:white;
 }
 
@@ -257,10 +257,6 @@ a.animated-button.thar-three:before {
 
 .main-section{
 	padding:90px 0 110px;
-}
-
-svg{
-	width:20px;
 }
 
 /* Services
