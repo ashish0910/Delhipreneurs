@@ -21,8 +21,8 @@
 	.logo{padding: 0 0 50px 0}
 	.header{padding: 200px 0}
 	.header h1{ font-size:46px;}
-	.running-hand-white{ font-size: 35px}
-	#text_shuffle{line-height: 3; font-size:30px}
+	.running-hand-white{ font-size: 20px}
+	#text_shuffle{line-height: 3; font-size:20px}
 	.main-nav ul li a{ padding:14px;}
 	.small-logo{ padding:0 20px;}
 	h2{ font-size:30px}
@@ -57,7 +57,7 @@
 	.service-list{ font-size:12px; margin-bottom:20px;}
 	.we-create li{ font-size:13px; padding:0 0 0 8px}
 	.header h1{ font-size:25px;}
-	.running-hand-white{ font-size: 22px; line-height: 0}
+	.running-hand-white{ font-size: 15px; line-height: 0}
 	#text_shuffle{font-size: 15px; padding: 0}
 	.header{ padding:20px 0 100px 0;}
 	.main-section{ padding:60px 0 70px;}
@@ -101,8 +101,8 @@
 @media only screen and (max-width: 479px) {
 	/****Mobile Portrait 320 ****/
 	.logo{width:120px}
-	.running-hand-white{font-size: 22px}
-	#text_shuffle{font-size: 15px}
+	.running-hand-white{font-size: 13px}
+	#text_shuffle{font-size: 13px}
 	.contact-info-box{ margin-left:0px;}
 	.header{ padding:70px 30px;}
 	.social-link{ margin-left:0px;}
