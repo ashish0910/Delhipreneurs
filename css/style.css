@@ -215,6 +215,41 @@ a.animated-button.thar-three:before {
 
 }
 
+button.animated-button.thar-three {
+	color: #fff;
+	cursor: pointer;
+	/* display: block; */
+	position: relative;
+	border: 2px solid white;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+
+}
+button.animated-button.thar-three:hover {
+	color:#fff !important;
+	/* font-weight: 600; */
+	background-color: transparent;
+	text-shadow: nthree;
+}
+button.animated-button.thar-three:hover:before {
+	left: 0%;
+	right: auto;
+	width: 100%;
+}
+button.animated-button.thar-three:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	color:#000 !important;
+	background:black;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+
+}
+
 .link{
 	padding:15px 35px;
 	background:#00C8F7;
