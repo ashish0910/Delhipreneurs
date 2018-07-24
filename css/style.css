@@ -7,6 +7,18 @@
 
 /* CSS Document */
 
+/*text shuffle for tagline*/
+
+#text_shuffle{
+	text-transform:none !important;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#fdf6f0;
+	font-size:25px;
+	/* font-weight:bold; */
+	color:yellow;
+	text-align:left;
+  }
+
 /* Float Elements 
 ---------------------------------*/
 .fl-lt {float:left;}
@@ -98,7 +110,7 @@ p{
 .header{
 	text-align:center;
 	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:280px 0;
+	padding:50px 0;
 }
 .logo{
 	width:250px;/**/
@@ -114,7 +126,7 @@ p{
 }
 
 .running-hand-white{
-	/* font: 400 30px/0.8 'Cookie', Helvetica, sans-serif; */
+	/*font: 400 30px/0.8 'Cookie', Helvetica, sans-serif; */
 	font-family: 'Cookie', Helvetica, sans-serif;
 	font-size:30px;
 	color: #fff;
