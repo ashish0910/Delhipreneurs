@@ -100,7 +100,7 @@
 
 @media only screen and (max-width: 479px) {
 	/****Mobile Portrait 320 ****/
-	.logo{width:150px ;padding: 0 0 30px 0}
+	.logo{width:120px}
 	.running-hand-white{font-size: 22px}
 	#text_shuffle{font-size: 15px}
 	.contact-info-box{ margin-left:0px;}
