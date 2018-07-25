@@ -1,3 +1,11 @@
+#soup-prev:hover{
+  color:#21adff;
+}
+
+#soup-next:hover{
+  color:#21adff;
+}
+
 #soup-nav {
   position: absolute;
   left: 0;
