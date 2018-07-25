@@ -173,7 +173,7 @@ $(document).ready(function() {
               .css({
                 left: randLeft,
                 top: randTop,
-                color: "#eee",//F9F7F6
+                color: "#F9F7F6",//
                 zIndex: "initial"
               });
           }
