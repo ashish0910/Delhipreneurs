@@ -2,6 +2,14 @@ $(document).ready(function() {
     /*
      * Main variables
      */
+
+    var images = [
+      "../img/service1.jpg",
+      "../img/service2.jpg",
+      "../img/service3.jpg",
+      "../img/service4.jpg"
+    ]; 
+
     var content = [
       {
         title: "Service #1",
@@ -53,6 +61,12 @@ $(document).ready(function() {
       );
       setText();
     }
+
+    //set image div
+    $("#service-img").append(
+      '<div id="service-image"></div>'
+    );
+
     //initial arrangement
     arrangeCurrentPage();
     scrambleOthers();
@@ -82,6 +96,23 @@ $(document).ready(function() {
       arrangeCurrentPage();
       scrambleOthers();
     });
+
+    /* Images column*/
+
+    $("#soup-prev").click(function(){
+      $("#service-image").fadeOut(500,function(){
+        $("#service-image").css({'background':'url('+images[currentPage]+') center top no-repeat', 'background-size':'cover'});
+      }).fadeIn(500);
+    });
+
+    $("#soup-next").click(function(){
+      $("#service-image").fadeOut(500,function(){
+        $("#service-image").css({'background':'url('+images[currentPage]+') center top no-repeat', 'background-size':'cover'});
+      }).fadeIn(500);
+    });
+
+    /* */
+
     /*
      * Functions
      */
