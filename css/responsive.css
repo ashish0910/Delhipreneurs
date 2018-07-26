@@ -118,6 +118,6 @@
 	.portfolioContainer{ width:280px !important; margin:0 auto !important }
 	.letters-wrap.position-data{top:-100% !important}
 	.our-services{padding: 10px 0}
-	#service-image{border-radius: 50%;}
-	#segments{clear:left}
+	/* #service-image{border-radius: 50%;}
+	#segments{clear:left} */
 }
