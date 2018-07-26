@@ -37,14 +37,18 @@
 	.form{ margin:0;}
 	.contact-info-box{ margin:0 ;}
 	.social-link{ margin:0;}
-	.letters-wrap.position-data{top:-250% !important}
 	.main-nav{ display:block !important; }
 	.main-nav li a{ padding:8px 15px;}
 	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
 	.Portfolio-box{ height:250px;}*/
+}
 
+@media only screen and (min-width: 768px) and (max-width: 809px){
+	.letters-wrap.position-data{top:-250% !important}
+}
 
-
+@media only screen and (min-width: 810px) and (max-width: 991px){
+	.letters-wrap.position-data{top:-235% !important}
 }
 
 @media only screen and (max-width: 767px) {
