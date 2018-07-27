@@ -314,16 +314,17 @@ button.animated-button.thar-three:before {
 
 .main-nav li a:hover{ 
 	text-decoration:none;
-	color: #00C8F7;
+	color: #7cc576;
 }
 
 .small-logo{ 
-	padding:0 4px;
+	padding:0 32px;
 }
 
 .main-section{
 	padding:90px 0 110px;
 }
+
 
 
 /* Services Section
