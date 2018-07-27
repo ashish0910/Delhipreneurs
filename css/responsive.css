@@ -11,7 +11,7 @@
 	.form{ margin:0 0 0 20px}
 	.main-nav{ display:block !important; }
 	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */
-
+	
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -41,11 +41,21 @@
 	.main-nav li a{ padding:8px 15px;}
 	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
 	.Portfolio-box{ height:250px;}*/
+	/* .letters-wrap.position-data{top:-65% !important;left:30% !important} */
+	.our-services{padding: 10px 0}
+	#service-image{left: 23% !important;top: 40% !important;transform: translate(-50%,-50%) !important; margin:0 !important; height: 270px !important; width: 270px !important;}
+	#segments{left: 10% !important;}
+	.soup-title{ font-size:26px !important;}
+	.soup-desc{ font-size:14px !important;}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 809px){
 	.letters-wrap.position-data{top:-250% !important}
 }
+
+@media only screen and (min-width: 768px) and (max-width: 828px){
+	.main-nav li a{margin:17px auto !important;}
+} 
 
 @media only screen and (min-width: 810px) and (max-width: 991px){
 	.letters-wrap.position-data{top:-235% !important}
@@ -99,7 +109,12 @@
 	.isotope{ width:400px; margin:0px auto;}
 	.Portfolio-box{}
 	.portfolioContainer{ width:350px; margin:0px auto !important; } */
-
+	.letters-wrap.position-data{top:-65% !important;left:30% !important}
+	.our-services{padding: 10px 0}
+	#service-image{left: 50% !important;top: 24% !important;transform: translate(-50%,-50%) !important; margin:0 !important; height: 200px !important; width: 200px !important;}
+	#segments{width:120% !important; left: 7% !important;}
+	.soup-title{ font-size:22px !important;}
+	.soup-desc{ font-size:13px !important;}
 
 }
 
@@ -116,8 +131,10 @@
 	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:0 !important}
 	.Portfolio-box img { max-width:100%;}
 	.portfolioContainer{ width:280px !important; margin:0 auto !important }
-	.letters-wrap.position-data{top:-100% !important}
+	.letters-wrap.position-data{top:-75% !important;left:30% !important}
 	.our-services{padding: 10px 0}
-	/* #service-image{border-radius: 50%;}
-	#segments{clear:left} */
+	#service-image{left: 50% !important;top: 22% !important;transform: translate(-50%,-50%) !important; margin:0 !important; height: 200px !important; width: 200px !important;}
+	#segments{width:120% !important; left: 6% !important;}
+	.soup-title{ font-size:20px !important;}
+	.soup-desc{ font-size:12px !important;}
 }

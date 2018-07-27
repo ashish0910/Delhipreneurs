@@ -51,6 +51,7 @@
   min-width: 320px;
   min-height: 480px;
   position: relative;
+  overflow:hidden;
 }
 .letters-wrap {
   position: absolute;
@@ -85,7 +86,7 @@
 #segments {
   position: absolute;
   top: 0;
-  left: 9%;
+  left: 8%;
   width: 100%;
   height: 100%;
 }
@@ -96,14 +97,18 @@ button {
   z-index: 9001;
   position: relative;
 }
+/*
+	#service-image{left: 23% !important;top: 40% !important;transform: translate(-50%,-50%) !important; margin:0 !important; height: 270px !important; width: 270px !important;}
+*/
 
 #service-image{
   position:absolute;
-  top:0;
-  left:0;
-  margin:50px;
-  width: 30%;
-  height: 70%;
+  top:40%;
+  left:18%;
+  /* margin:50px; */
+  width: 300px;
+  height: 300px;
+  transform: translate(-50%,-50%);
   z-index:9002;
   border-radius:20px;
   background-color:red;
