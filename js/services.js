@@ -100,16 +100,24 @@ $(document).ready(function() {
   /* Images column*/
 
   $("#soup-prev").click(function(){
-    $("#service-image").fadeOut(500,function(){
+    $("#service-image").fadeOut(400,function(){
       $("#service-image").css({'background':'url('+images[currentPage]+') center top no-repeat', 'background-size':'cover'});
-    }).fadeIn(500);
+    }).fadeIn(400);
   });
 
-  $("#soup-next").click(function(){
-    $("#service-image").fadeOut(500,function(){
+  $("#soup-next").click(400,function(){
+    $("#service-image").fadeOut(function(){
       $("#service-image").css({'background':'url('+images[currentPage]+') center top no-repeat', 'background-size':'cover'});
-    }).fadeIn(500);
+    }).fadeIn(400);
   });
+
+  // $("#soup-prev").click(function(){
+  //   $("#service-image").css({'background':'url('+images[currentPage]+') center top no-repeat', 'background-size':'cover'});
+  // });
+
+  // $("#soup-next").click(function(){
+  //   $("#service-image").css({'background':'url('+images[currentPage]+') center top no-repeat', 'background-size':'cover'});
+  // });
 
   /* */
 
