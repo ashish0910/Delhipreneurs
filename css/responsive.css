@@ -10,6 +10,7 @@
 	.c-logo-part ul li{ margin:0 15px;}
 	.form{ margin:0 0 0 20px}
 	.main-nav{ display:block !important; }
+	.nav-bar{display:none !important} /*comment this line to restore hamburger navigation*/
 	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */
 	
 }
@@ -37,7 +38,7 @@
 	.form{ margin:0;}
 	.contact-info-box{ margin:0 ;}
 	.social-link{ margin:0;}
-	.main-nav{ display:block !important; }
+	.main-nav{ display:block !important; z-index:9009 !important }
 	.main-nav li a{ padding:8px 15px;}
 	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
 	.Portfolio-box{ height:250px;}*/
@@ -47,15 +48,16 @@
 	#segments{left: 10% !important;}
 	.soup-title{ font-size:26px !important;}
 	.soup-desc{ font-size:14px !important;}
+	.nav-bar{display:none !important} /*comment this line to restore hamburger navigation*/
 }
 
 @media only screen and (min-width: 768px) and (max-width: 809px){
 	.letters-wrap.position-data{top:-250% !important}
 }
 
-@media only screen and (min-width: 768px) and (max-width: 828px){
+/* @media only screen and (min-width: 768px) and (max-width: 828px){
 	.main-nav li a{margin:17px auto !important;}
-} 
+}  */
 
 @media only screen and (min-width: 810px) and (max-width: 991px){
 	.letters-wrap.position-data{top:-235% !important}
@@ -76,10 +78,11 @@
 	.header{ padding:20px 0 100px 0;}
 	.main-section{ padding:60px 0 70px;}
 	.main-nav{ display:none; position:absolute; left:0; width:100%; top:68px; margin:0 auto; float: none; background:#fff; z-index: 99; border-top: 1px solid #eee;}
-	.main-nav li{ display:block;}
+	.main-nav li{ display:block; z-index:9005 !important}
 	.main-nav li.small-logo{ display:none;}
 	.main-nav li a{ display:block; padding:12px 32px; margin: 4px 0; border-bottom: 1px solid #f3f3f3;;}
 	.main-nav li a:hover{color:#7cc576}
+	.main-nav-outer{display:none !important}/*comment this line to restore default nav bar*/
 	.team-leader-box{ max-width:307px; width:auto; float:none; margin:0 auto;	}
 	.team-leader-box:nth-of-type(3n){ margin:0 auto}
 	.res-nav_click{ display:block;}
@@ -137,4 +140,10 @@
 	#segments{width:120% !important; left: 6% !important;}
 	.soup-title{ font-size:20px !important;}
 	.soup-desc{ font-size:12px !important;}
+	.open{top:20px !important; right:10px !important}
+	/* .open span{width:25px !important; height: 2.5px !important;} */
+	/* .open span:nth-child(1){margin-top:12px !important}
+	.open span:nth-child(2){margin-top:20px !important}
+	.open span:nth-child(3){margin-top:28px !important} */
+	/* .nav-bar-2{background-color: red !important ;width: 50px !important; height: 50px !important; top:-1px !important; left: 9px !important} */
 }

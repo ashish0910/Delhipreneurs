@@ -1,6 +1,6 @@
 setTimeout(function(){
     $(document).ready(function(){
-        var theLetters = "mnopqrstuvwxyz#%&^+=-"; //You can customize what letters it will cycle through
+        var theLetters = "abcdefghijklmnopqrstuvwxyz#%&^+=-"; //You can customize what letters it will cycle through
         var ctnt = "Reinventing Education"; // Your text goes here
         var speed = 20; // ms per frame
         var increment = 3; // frames per step. Must be >2
