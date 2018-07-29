@@ -513,6 +513,8 @@ button.animated-button.thar-three:before {
   #about .about-text {
 	line-height: 26px;
 	margin-bottom: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
   }
   
   #about .about-text:last-child {
