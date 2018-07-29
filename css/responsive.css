@@ -32,12 +32,12 @@
 	.featured-work p.padding-b{ padding-bottom:15px;}
 	.main-section{ padding:70px 0;}
 	.c-logo-part ul li{ margin:0 1%; float:left; width:18%;}
-	.c-logo-part ul li a{ display:block;}
+	.c-logo-part ul li a{ display:block;} 
 	.c-logo-part ul li a img{ display:block;}
 	.form{ margin:0;}
 	.contact-info-box{ margin:0 ;}
 	.social-link{ margin:0;}
-	.main-nav{ display:block !important; }
+	.main-nav{ display:none !important; }/*change none to block in case you need broad nav bar*/
 	.main-nav li a{ padding:8px 15px;}
 	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
 	.Portfolio-box{ height:250px;}*/
@@ -47,7 +47,7 @@
 	#segments{left: 10% !important;}
 	.soup-title{ font-size:26px !important;}
 	.soup-desc{ font-size:14px !important;}
-	.nav-bar{display:none !important} /*comment this line to restore hamburger navigation*/
+	/* .nav-bar{display:none !important} comment this line to restore hamburger navigation */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 809px){
