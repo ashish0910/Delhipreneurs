@@ -83,6 +83,7 @@
   transform: translate(-50%, -50%);
 }
 #segments {
+  font-family: 'Open Sans', sans-serif;
   position: absolute;
   top: 0;
   left: 8%;
@@ -119,4 +120,8 @@ button {
 
 .exp{
   padding:none;
+}
+
+.our-services{
+  font-family: 'Open Sans', sans-serif;
 }

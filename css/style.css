@@ -288,18 +288,22 @@ button.animated-button.thar-three:before {
 	box-shadow:0 4px 5px -3px #ececec;
 	position:relative;
 	background:#fff;
+	z-index:9004;
 }
 .main-nav{
 	text-align:center;
 	margin:10px 0 0px;
 	padding:0;
 	list-style:none;
+	z-index:9004;
 }
 .main-nav li{
 	display:inline;
 	margin:0 1px;
+	z-index:9004;
 }
 .main-nav li a{
+	z-index:9004;
 	display:inline-block;
 	color:#222222;
 	text-transform:uppercase;
@@ -318,6 +322,7 @@ button.animated-button.thar-three:before {
 }
 
 .small-logo{ 
+	z-index:9004;
 	padding:0 32px;
 }
 
