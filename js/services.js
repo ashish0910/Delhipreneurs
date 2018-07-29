@@ -13,7 +13,7 @@ $(document).ready(function() {
   var content = [
     {
       title: "Service #1",
-      desc: "Amet cillum eiusmod aliqua et et occaecat cillum enim velit minim."
+      desc: "Amet cillum Bobo mjs sdb ciefhu ddhfe ihfeuhf kdhf eiusmod aliqua et et occaecat cillum enim velit minim ."
     },
     {
       title: "Service #2",

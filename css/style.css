@@ -136,7 +136,7 @@ p{
 	margin:0 auto 35px;             
 }
 .header h1{
-	font-family: 'Trebuchet MS',sans-serif;
+	font-family: 'Trebuchet MS',sans-serif !important;
 	font-size:50px;
 	font-weight:400;
 	letter-spacing: 2px;/**/
@@ -146,7 +146,7 @@ p{
 
 .running-hand-white{
 	/*font: 400 30px/0.8 'Cookie', Helvetica, sans-serif; */
-	font-family: 'Trebuchet MS',Helvetica, sans-serif;
+	font-family: 'Trebuchet MS',Helvetica, sans-serif !important;
 	font-size:20px;
 	color:lightgray;
 	/* text-shadow: 4px 4px 3px rgba(0,0,0,0.1); */
@@ -188,7 +188,7 @@ a.animated-button.thar-three {
 	position: relative;
 	border: 2px solid white;
 	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
-
+	backface-visibility: hidden;
 }
 a.animated-button.thar-three:hover {
 	color:#00C8F7 !important;
@@ -213,7 +213,7 @@ a.animated-button.thar-three:before {
 	color:#000 !important;
 	background:white;
 	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
-
+	backface-visibility: hidden;
 }
 
 button.animated-button.thar-three {
@@ -223,7 +223,7 @@ button.animated-button.thar-three {
 	position: relative;
 	border: 2px solid white;
 	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
-
+	backface-visibility: hidden;
 }
 button.animated-button.thar-three:hover {
 	color:#fff !important;
@@ -248,6 +248,7 @@ button.animated-button.thar-three:before {
 	color:#000 !important;
 	background:black;
 	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+	backface-visibility: hidden;
 
 }
 
@@ -266,6 +267,7 @@ button.animated-button.thar-three:before {
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
+	backface-visibility: hidden;
 }
 .link:hover {
 	text-decoration:none;
@@ -488,6 +490,7 @@ button.animated-button.thar-three:before {
   
   #about .about-img img {
 	max-width: 100%;
+	border-radius: 30px;
   }
   
   @media (max-width: 768px) {
