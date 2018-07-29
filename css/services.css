@@ -33,8 +33,7 @@
 }
 
 .service-parent{
-  width:100%;
-  display: flex;
+  /* nothing */
 }
 .services-container {
     position: relative;
