@@ -603,7 +603,7 @@
 				var $anchor = $(this);
 
 				$('html, body').stop().animate({
-					scrollTop: $($anchor.attr('href')).offset().top - 102
+					scrollTop: $($anchor.attr('href')).offset().top - 92
 				}, 1500, 'easeInOutExpo');
 				/*
 				if you don't want to use the easing effects:
@@ -614,6 +614,21 @@
 				if ($(window).width() < 768) {
 					$('.main-nav').hide();
 				}
+				event.preventDefault();
+			});
+			
+			$('.sub-menu li a, .servicelink').bind('click', function(event) {
+				var $anchor = $(this);
+
+				$('html, body').stop().animate({
+					scrollTop: $($anchor.attr('href')).offset().top //subtract some offset if needed
+				}, 1500, 'easeInOutExpo');
+				/*
+				if you don't want to use the easing effects:
+				$('html, body').stop().animate({
+					scrollTop: $($anchor.attr('href')).offset().top
+				}, 1000);
+				*/
 				event.preventDefault();
 			});
 		})

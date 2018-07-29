@@ -8,21 +8,25 @@
 	.c-logo-part ul li{ margin:0 15px;}
 	.form{ margin:0 0 0 20px}
 	.main-nav{ display:block !important; }
-	.our-services{padding:30px 0}
+	.our-services{padding:35px 0}
 	.nav-bar{display:none !important} /*comment this line to restore hamburger navigation*/
 	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */
 	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	/****Ipad Portrait 768 Container 750 ****/
 	body{ font-size:13px;}
 	p{ line-height:20px ;}
-	.logo{padding: 0 0 50px 0}
-	.header{padding: 200px 0}
+	.logo{padding: 80px 0 20px 0}
+	.header{padding: 10px 0}
 	.header h1{ font-size:46px;}
 	.running-hand-white{ font-size: 20px}
-	#text_shuffle{line-height: 3; font-size:20px}
+	#text_shuffle{line-height: 2; font-size:20px}
 	.main-nav ul li a{ padding:14px;}
 	.small-logo{ padding:0 20px;}
 	h2{ font-size:30px}
@@ -50,17 +54,18 @@
 	/* .nav-bar{display:none !important} comment this line to restore hamburger navigation */
 }
 
+@media only screen and (min-width: 810px) and (max-width: 991px){
+	.letters-wrap.position-data{top:-150% !important}
+}
+
 @media only screen and (min-width: 768px) and (max-width: 809px){
-	.letters-wrap.position-data{top:-250% !important}
+	.letters-wrap.position-data{top:-150% !important}
 }
 
 /* @media only screen and (min-width: 768px) and (max-width: 828px){
 	.main-nav li a{margin:17px auto !important;}
 }  */
 
-@media only screen and (min-width: 810px) and (max-width: 991px){
-	.letters-wrap.position-data{top:-250% !important}
-}
 
 @media only screen and (max-width: 767px) {
 	/****Mobile Landscape 480 Container 100% ****/
@@ -71,10 +76,11 @@
 	p{ line-height:18px;}
 	.service-list{ font-size:12px; margin-bottom:20px;}
 	.we-create li{ font-size:13px; padding:0 0 0 8px}
-	.header h1{ font-size:25px;}
-	.running-hand-white{ font-size: 15px; line-height: 0}
-	#text_shuffle{font-size: 15px; padding: 0}
-	.header{ padding:20px 0 100px 0;}
+	.header{padding: 80px 0}
+	.header h1{ font-size:39px;}
+	.running-hand-white{ font-size: 20px}
+	#text_shuffle{line-height: 5; font-size:20px}
+	.main-nav ul li a{ padding:14px;}
 	.main-section{ padding:60px 0 70px;}
 	.main-nav{ display:none; position:absolute; left:0; width:100%; top:68px; margin:0 auto; float: none; background:#fff; z-index: 99; border-top: 1px solid #eee;}
 	.main-nav li{ display:block; z-index:9005 !important}
@@ -90,7 +96,7 @@
 	.featured-box p{ line-height:18px; }
 	.c-logo-part ul a{ margin-bottom:5px;}
 	.main-section.team{ padding:60px 0 50px;}
-	.business-talking h2{ font-size:36px;}
+	.business-talking h2{ font-size:46px;}
 	.contact-info-box{ margin:0 0 12px 30px; font-size:12px;}
 	.contact-info-box span{ line-height:18px;}
 	.contact-info-box.phone span, .contact-info-box.email span { padding-top: 6px;}
@@ -101,7 +107,7 @@
 	.main-section.contact{ padding:60px 0 70px}
 	.client-part-haead{ font-size:20px; line-height:30px;}
 	.link{ font-size:14px; padding:7px 20px; margin: -20px 0 0 0}
-	.logo{ width:100px;}
+	.logo{ width:250px;}
 	.main-section.contact{ background-size:contain;}
 	.Portfolio-nav li a{ padding:5px 16px;}
 	.Portfolio-nav li{ display:block;}
@@ -111,7 +117,7 @@
 	.isotope{ width:400px; margin:0px auto;}
 	.Portfolio-box{}
 	.portfolioContainer{ width:350px; margin:0px auto !important; } */
-	.letters-wrap.position-data{top:-65% !important;left:30% !important}
+	.letters-wrap.position-data{top:-133% !important;left:30% !important}
 	.our-services{padding: 10px 0}
 	#service-image{left: 50% !important;top: 24% !important;transform: translate(-50%,-50%) !important; margin:0 !important; height: 200px !important; width: 200px !important;}
 	#segments{width:120% !important; left: 7% !important;}
@@ -123,8 +129,9 @@
 @media only screen and (max-width: 479px) {
 	/****Mobile Portrait 320 ****/
 	.logo{width:120px}
+	.header h1{font-size: 26px}
 	.running-hand-white{font-size: 13px}
-	#text_shuffle{font-size: 13px}
+	#text_shuffle{font-size: 13px; line-height: 2}
 	.contact-info-box{ margin-left:0px;}
 	.header{ padding:70px 30px;}
 	.social-link{ margin-left:0px;}
@@ -133,7 +140,7 @@
 	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:0 !important}
 	.Portfolio-box img { max-width:100%;}
 	.portfolioContainer{ width:280px !important; margin:0 auto !important }
-	.letters-wrap.position-data{top:-75% !important;left:30% !important}
+	.letters-wrap.position-data{top:-80% !important;left:30% !important}
 	.our-services{padding: 10px 0}
 	#service-image{left: 50% !important;top: 22% !important;transform: translate(-50%,-50%) !important; margin:0 !important; height: 200px !important; width: 200px !important;}
 	#segments{width:120% !important; left: 6% !important;}

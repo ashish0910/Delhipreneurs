@@ -76,7 +76,7 @@
 }
 .letters-wrap.position-data {
   position: absolute;
-  top: -155%;
+  top: -170%;
   left: 50%;
   /*opacity: 0.1;*/
   visibility: hidden;
