@@ -650,7 +650,7 @@
 				event.preventDefault();
 			});
 			
-			$('.sub-menu li a, .servicelink').bind('click', function(event) {
+			$('.sub-menu li a').bind('click', function(event) {
 				var $anchor = $(this);
 
 				$('html, body').stop().animate({
