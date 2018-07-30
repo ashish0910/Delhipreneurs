@@ -14,10 +14,6 @@
 	
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px){
-
-}
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	/****Ipad Portrait 768 Container 750 ****/
 	body{ font-size:13px;}
