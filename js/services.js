@@ -12,23 +12,31 @@ $(document).ready(function() {
 
   var content = [
     {
-      title: "Service #1",
-      desc: "Amet cillum Bobo mjs sdb ciefhu ddhfe ihfeuhf kdhf eiusmod aliqua et et occaecat cillum enim velit minim ."
+      title: "Finance",
+      desc: "The Finance department covers a diverse set of topics and is taken by experienced members of Zenith with practical experience and knowledge of the same. The workshops provide the whole story on multiple concepts related to business and finance which we see in action around us and are often vital as well while the events are designed to be easy and inclusive while being fun and informative."
     },
     {
-      title: "Service #2",
+      title: "Technical",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "Since most of the innovations today are based on technology, the workshops of this department provide comprehensive knowledge of different kinds of software.  The events in this department are a test of knowledge and an opportunity to expand horizons. They do not necessarily demand a knowledge of coding every time and often are purely a trial of logic and analysis."
     },
     {
-      title: "Service #3",
+      title: "Entrepreneurship",
       desc:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "Our Entrepreneurship workshops are aimed at inculcating the necessary skills in individuals to start their own businesses. Having been part of the process ourselves, we are always looking to encourage the growth of such organizations and these workshops are designed to provide the right guidance for going about the same."
     },
     {
-      title: "Service #4",
-      desc: "Exercitation non ullamco reprehenderit id incididunt ullamco aute reprehenderit non deserunt non do id."
-    }
+      title: "Marketing",
+      desc: "Marketing is one of those few fields which witness a deep amalgamation of online and offline platforms. Its importance cannot be stressed enough, and history is a testimony to the fact that good marketing has saved dying brands while bad marketing has killed soaring ones. From branding to pricing and from digital marketing to search engine optimization, we cover everything here."
+    },
+    {
+      title: "Public Speaking",
+      desc: "Public speaking is one of the few things whose importance is underestimated by many people and many more have a nagging fear of it in some kind or the other. Being well aware of the significance of good speaking skills, whether to crack an interview or impress a client, we provide a broad range of solutions to inculcate such skills and to develop confidence for the same"
+    },
+    {
+      title: "Legal",
+      desc: "All of these workshops provide a detailed insight into the mentioned areas along with an in-depth analysis of the laws in frameworks, rights, duties, precautions to be taken, steps to be observed and procedure to be followed so as to generate awareness and spread information about provisions that are often neglected. The events, on the other hand, are designed to push your analytical skills, test logic and scrutinize intellect."
+    },
   ];
   var currentPage = 0;
   //generate content
